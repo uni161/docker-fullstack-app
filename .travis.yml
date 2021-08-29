@@ -22,7 +22,7 @@ after_success:
   - docker push uni161/docker-backend
   - docker push uni161/docker-nginx
   
-  deploy:
+deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "docker-fullstack-app"
